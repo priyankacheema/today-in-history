@@ -1,0 +1,37 @@
+{
+  "name": "today-in-history",
+  "version": "1.0.0",
+  "description": "TODAY IN HISTORY Things happened today, let's list them out!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --mode=development -w",
+    "build:prod": "webpack --mode=production",
+    "start": "webpack-dev-server --open --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankacheema/today-in-history.git"
+  },
+  "author": "Priyanka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priyankacheema/today-in-history/issues"
+  },
+  "homepage": "https://github.com/priyankacheema/today-in-history#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.14.3",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
