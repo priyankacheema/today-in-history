@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
+  devtool: "inline-source-map",
   devServer: {
     contentBase: "./dist"
   },
@@ -20,8 +21,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
       title: "Today In History"
+      //   template: "./src/index.html"
     })
   ]
 };
