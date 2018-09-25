@@ -25,10 +25,19 @@ body {
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#history-form-button:hover {
+  background-color: darkkhaki;
+}
+#history-form-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
-#history-form-list {
-  font-size: 30px;
+#ul-list {
+  font-size: 18px;
   font-weight: bold;
 }
