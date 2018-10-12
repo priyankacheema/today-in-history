@@ -1,18 +1,10 @@
 import { createForm } from "./createForm";
 import * as header from "./createHeader";
 import { historyCollection } from "./todayInHistory";
-import css from "./style.css";
-import icon from "./history.jpg";
+import "./style.css";
 
-header.createHeader("h1", "Today in History");
+header.createHeader("h1", "Today in History: Events");
 const histForm = createForm({ id: "history-form" });
-
-// Add the image to our existing div.
-// const div = document.createElement("div");
-// const myIcon = new Image();
-// myIcon.src = icon;
-
-// element.appendChild(myIcon);
 
 const todayInHistoryCollection = () => {
   histForm.addEventListener("submit", e => {

@@ -1,6 +1,5 @@
 body {
-  background: url("./history.jpg");
-  /* background: lightgoldenrodyellow; */
+  background: url("./history1.jpg");
   font-family: "Roboto", sans-serif;
   color: black;
   background-repeat: repeat;
@@ -15,7 +14,6 @@ body {
   background-color: #c0c0c0;
 }
 #history-form-button {
-  /* background-color: #008cba; */
   background-color: #696969;
   border: none;
   color: white;

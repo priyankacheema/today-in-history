@@ -8,7 +8,7 @@ const fetchHistoryList = () => {
 
 export function historyCollection() {
   fetchHistoryList(API_URL).then(data => {
-    data.data.Births.map(obj => {
+    data.data.Events.map(obj => {
       createList("ul", obj.text);
     });
   });
